@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    transition: all ease-in-out 300ms;
+}
+body{
+    background-image: linear-gradient(to right top, #333333, #553d55, #8a3e5d, #bb4148, #d15c11);
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+}

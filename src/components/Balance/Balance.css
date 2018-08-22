@@ -1,0 +1,107 @@
+.otro-cont-test{
+    display: flex;
+    justify-content: center;
+    width: 100% ;
+}
+
+.balance-container{
+    color: white;
+    background:rgba(0, 0, 0, 0.3);
+    width: 700px;
+    border-radius: 0.30rem;
+    padding: 10px;  
+    box-shadow: 0px 2px 10px rgba( 0, 0, 0, .75);
+
+
+}
+
+.dashboard-icon{
+    font-size: 1.3em;
+    margin-right: 5px;
+    margin-bottom: 11px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.user-img-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 20px;     
+}
+.user-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.token-information-card{
+    margin-top: -100px;
+}
+
+.fist-p{
+    float: right;
+}
+
+.token p{
+    float: left;
+    margin-left: 50px;
+}
+
+.token-icon{
+    color: gold;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+.send-token-container{
+    display: flex;
+    justify-content: center;
+}
+button {
+    color: var(--color);
+    transition: 0.25s;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+.pulse {
+    --color: #ef6eae;
+    --hover: #ef8f6e;
+  }
+
+.user-information-balance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
